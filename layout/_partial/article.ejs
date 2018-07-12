@@ -16,6 +16,21 @@
         <% } %>
       <% } else { %>
         <%- post.content %>
+        <hr/>
+        <% if (post.layout == "post") { %>
+          <blockquote>
+            <p>本文标题：<%- post.title %></p>
+            <p>本文地址：<%- page.permalink %></p>
+            <p>本文作者：<%- theme.author %></p>
+            <p>发布时间：<%- date(post.date, 'YYYY年MM月DD日') %></p>
+            <p>许可协议：本作品采用
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+              </a>
+              进行许可，转载请注明出处。
+            <p>
+          </blockquote>
+        <% } %>
       <% } %>
 
       <% if ((theme.reward_type === 2 || (theme.reward_type === 1 && post.reward)) && !index){ %>

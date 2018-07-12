@@ -2,14 +2,16 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  归档: /archives/
+  Hexo: /categories/Hexo/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/YoungerMore"
+  mail: "mailto:1012644135@qq.com"
+  rss: "/atom.xml"
+  #weibo: "#"
+  #zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -17,7 +19,6 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -45,17 +46,17 @@ open_in_new: false
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '打赏什么的最有爱了'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: /images/alipay.jpg
 # 微信二维码图片地址
-weixin: 
+weixin: /images/wechat.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 2
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
-toc_hide_index: true
+toc_hide_index: false
 # 目录为空时的提示
 toc_empty_wording: '目录，不存在的…'
 
@@ -64,11 +65,11 @@ top: true
 
 # Miscellaneous
 baidu_analytics: ''
-google_analytics: ''
-favicon: /favicon.png
+google_analytics: 'UA-121194808-1'
+favicon: /images/favicon.png
 
 #你的头像url
-avatar:
+avatar: /images/favicon.png
 
 #是否开启分享
 share_jia: true
@@ -91,11 +92,11 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: false      #你的 GitHub ID
-gitment_repo: ''          #存储评论的 repo
+gitment_owner: YoungerMore      #你的 GitHub ID
+gitment_repo: 'YoungerMore.github.io'          #存储评论的 repo
 gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+  client_id: 'c4cd8f1f39315628e8e6'           #client ID
+  client_secret: '83b70163f5bdc1e6aa9a2549585b6b9b03c1c925'       #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -107,7 +108,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: ture
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -115,16 +116,11 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: '所有文章'
-  friends: '友链'
-  aboutme: '关于我'
+  innerArchive: '搜索'
+  friends: '友情链接'
+  aboutme: '彩蛋'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  暂时好像没有哦: https://youngermore.github.io/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 我永远喜欢ELA小姐姐

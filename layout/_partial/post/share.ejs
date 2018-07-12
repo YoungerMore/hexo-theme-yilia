@@ -1,4 +1,17 @@
-<%
+<!-- 此处替换为自己的地址 -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b345134fbaf1499">
+</script>
+<style type="text/css">
+  .addthis_inline_share_toolbox {
+    /* 此处必须强制替换"clean: both"样式 */
+    clear: none !important;
+    float: right;
+  }
+</style>
+<div class="addthis_inline_share_toolbox">
+</div>
+
+<!-- <%
   var sUrl = url.replace(/index\.html$/, '');
   sUrl = /^(http:|https:)\/\//.test(sUrl) ? sUrl : 'http:' + sUrl;
 %>
@@ -46,8 +59,8 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="<%- 'qrcode' in locals ? qrcode(sUrl) : '//pan.baidu.com/share/qrcode?url=' + sUrl  %>" alt="微信分享二维码">
+      <img src="<%- 'qrcode' in locals ? qrcode(sUrl) : 'http://tool.oschina.net/action/qrcode/generate?data=' + sUrl + '&output=image%2Fpng&error=L&type=0&margin=10&size=4&1529928182361' %>" alt="微信分享二维码">
     </div>
 </div>
 
-<div class="mask js-mask"></div>
+<div class="mask js-mask"></div> -->
